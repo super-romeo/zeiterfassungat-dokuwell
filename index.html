@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Für kleine Betriebe in Österreich: Arbeitszeit am Handy oder Tablet erfassen, Pausen und Überstunden sehen, Stundenliste als PDF oder Excel.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Stundenliste</a></div>
-  <nav class="top"><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Stundenliste</a>
+  <nav><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Arbeitszeit erfassen ohne Zettel — und am Monatsende ist die Stundenliste fertig</h1>
-    <p class="sub">Für kleine Betriebe mit einem bis neun Mitarbeitenden: Beginn, Pause und Ende tippt jede Person am Handy oder am Tablet im Betrieb ein, Überstunden und Fehlzeiten werden mitgerechnet, und die Stundenliste für die Lohnverrechnung steht am Monatsende bereit.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Das brauche ich</a>
-    <p class="cta-note">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Für kleine Betriebe mit einem bis neun</p>
+      <h1 class="rise" style="--i:1" data-len="long">Arbeitszeit erfassen ohne Zettel&nbsp;<span class="soft">— und am Monatsende ist die Stundenliste fertig</span></h1>
+      <p class="rise" style="--i:2">Für kleine Betriebe mit einem bis neun Mitarbeitenden: Beginn, Pause und Ende tippt jede Person am Handy oder am Tablet im Betrieb ein, Überstunden und Fehlzeiten werden mitgerechnet, und die Stundenliste für die Lohnverrechnung steht am Monatsende bereit.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Das brauche ich</a>
+      <p class="meta rise" style="--i:4">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">Stundenliste</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="250" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="282" font-size="32" fill="#0a1524">Beginn</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="32" fill="#0a1524">Pause</text><rect x="130" y="450" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="482" font-size="32" fill="#0a1524">Überstunden</text><rect x="130" y="550" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="582" font-size="32" fill="#0a1524">Fehlzeiten</text><rect x="700" y="250" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="314" font-size="34" font-weight="600" fill="#0a1524">Monat</text><rect x="740" y="510" width="48" height="100" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="820" y="430" width="48" height="180" rx="8" fill="#12397a" stroke="#dde2ea" stroke-width="2" /><rect x="900" y="370" width="48" height="240" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="980" y="470" width="48" height="140" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Für</dt><dd>Kleine Betriebe mit einem</dd></div>
+      <div><dt>Stundenliste</dt><dd>Die Stundenliste fertig</dd></div>
+      <div><dt>Handy</dt><dd>Am Handy oder am Tablet</dd></div>
+      <div><dt>Dienst</dt><dd>Dienst in Vorbereitung</dd></div>
+    </dl>
+  </section>
 
   <section id="was" data-view="features_view">
-    <h2>Was Sie bekommen</h2>
-    <div class="grid">
-      <div class="card"><b>Beginn, Pause, Ende</b><span>Arbeitszeit mit einem Tipp am Handy oder am Tablet im Betrieb.</span><br><a class="btn" href="price.html" data-ev="feature_erfassung">Das brauche ich</a></div>
-      <div class="card"><b>Überstunden und Fehlzeiten</b><span>Überstunden, Urlaub und Krankenstand je Person sichtbar.</span><br><a class="btn" href="price.html" data-ev="feature_ueberstunden">Das brauche ich</a></div>
-      <div class="card"><b>Stundenliste</b><span>Monatliche Stundenliste je Person als PDF oder Excel.</span><br><a class="btn" href="price.html" data-ev="feature_liste">Das brauche ich</a></div>
-      <div class="card"><b>Korrekturen mit Verlauf</b><span>Vergessene Einträge nachtragen, jede Änderung mit Datum gespeichert.</span><br><a class="btn" href="price.html" data-ev="feature_korrektur">Das brauche ich</a></div>
+    <div class="stack"><h2>Was Sie bekommen</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="60" width="660" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="110" y="130" font-size="36" font-weight="600" fill="#0a1524">Arbeitszeit</text><line x1="110" y1="168" x2="690" y2="168" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="120" y="200" width="500" height="72" rx="28" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><circle cx="164" cy="236" r="12" fill="#12397a" /><text x="196" y="246" font-size="30" font-weight="600" fill="#0a1524">Pause</text><rect x="120" y="310" width="500" height="72" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><circle cx="164" cy="346" r="12" fill="#b9c3d2" /><text x="196" y="356" font-size="30" fill="#0a1524">Ende</text><rect x="120" y="420" width="500" height="72" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><circle cx="164" cy="456" r="12" fill="#b9c3d2" /><text x="196" y="466" font-size="30" fill="#0a1524">Handy</text></svg></div>
+        <h3>Beginn, Pause, Ende</h3><p>Arbeitszeit mit einem Tipp am Handy oder am Tablet im Betrieb.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_erfassung">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">Überstunden</text><line x1="140" y1="430" x2="660" y2="430" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="160" y="290" width="70" height="140" rx="8" fill="#dfe8f7" /><rect x="280" y="210" width="70" height="220" rx="8" fill="#12397a" /><rect x="400" y="340" width="70" height="90" rx="8" fill="#dfe8f7" /><rect x="520" y="260" width="70" height="170" rx="8" fill="#dfe8f7" /><text x="120" y="490" font-size="30" fill="#566174">Fehlzeiten</text></svg></div>
+        <h3>Überstunden und Fehlzeiten</h3><p>Überstunden, Urlaub und Krankenstand je Person sichtbar.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_ueberstunden">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="90" y="60" width="460" height="480" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">Stundenliste</text><line x1="120" y1="160" x2="510" y2="160" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="120" y="190" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="246" width="240" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="302" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="358" width="180" height="22" rx="8" fill="#dde2ea" /><circle cx="640" cy="300" r="70" fill="#dfe8f7" /><polyline points="606,300 632,328 678,270" fill="none" stroke="#12397a" stroke-width="8" /><text x="120" y="480" font-size="32" fill="#566174">Excel</text></svg></div>
+        <h3>Stundenliste</h3><p>Monatliche Stundenliste je Person als PDF oder Excel.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_liste">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="36" font-weight="600" fill="#0a1524">Korrekturen</text><rect x="130" y="200" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polyline points="142,226 152,236 166,216" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="213" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="290" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polyline points="142,316 152,326 166,306" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="303" width="290" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="380" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="393" width="240" height="22" rx="8" fill="#dde2ea" /><text x="130" y="490" font-size="30" fill="#566174">Datum</text></svg></div>
+        <h3>Korrekturen mit Verlauf</h3><p>Vergessene Einträge nachtragen, jede Änderung mit Datum gespeichert.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_korrektur">Das brauche ich</a>
+      </article>
     </div>
   </section>
 
-  <section id="beispiel" data-view="example_view">
-    <h2>Beispiel (fiktive Daten)</h2>
-    <p class="fine">Bäckerei mit sieben Mitarbeitenden in zwei Schichten. Jede Person tippt Beginn und Ende am Tablet neben der Kassa ein. Am 31. sind die Stundenlisten aller sieben als PDF fertig, mit Überstunden und einem Krankenstand, und gehen an die Lohnverrechnung.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+  <section id="beispiel" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Beispiel</h2>
+      <p>Bäckerei mit sieben Mitarbeitenden in zwei Schichten. Jede Person tippt Beginn und Ende am Tablet neben der Kassa ein. Am 31. sind die Stundenlisten aller sieben als PDF fertig, mit Überstunden und einem Krankenstand, und gehen an die Lohnverrechnung.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">Beginn</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">Ende</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">PDF</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">Stundenlisten</text><rect x="170" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="260" y="440" width="64" height="64" rx="12" fill="#12397a" /><rect x="350" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="440" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="530" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="620" y="440" width="64" height="64" rx="12" fill="#12397a" /><text x="170" y="640" font-size="32" fill="#566174">Lohnverrechnung</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>So funktioniert es</h2>
-    <p>Arbeitgeber in Österreich müssen für ihre Mitarbeitenden Aufzeichnungen über die geleisteten Arbeitsstunden führen. In kleinen Betrieben passiert das oft auf Papier: Stundenzettel, ein Heft neben der Kassa oder eine Tabelle, die am Monatsende abgetippt wird. Papier ist erlaubt, aber es kostet Zeit und geht leicht verloren.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>So funktioniert es</h2></div>
+    <div class="stack">
+      <p>Arbeitgeber in Österreich müssen für ihre Mitarbeitenden Aufzeichnungen über die geleisteten Arbeitsstunden führen. In kleinen Betrieben passiert das oft auf Papier: Stundenzettel, ein Heft neben der Kassa oder eine Tabelle, die am Monatsende abgetippt wird. Papier ist erlaubt, aber es kostet Zeit und geht leicht verloren.</p>
     <p>Am Monatsende beginnt dann das Zusammenzählen: Wer hat wie viele Stunden gearbeitet, wo waren Überstunden, wer war krank oder auf Urlaub? Fehlt ein Zettel oder ist ein Eintrag unleserlich, wird nachgefragt, und die Lohnverrechnung wartet.</p>
     <p>Die Software macht die Erfassung einfach. Jede Person tippt Beginn, Pause und Ende der Arbeitszeit am eigenen Handy oder an einem Tablet im Betrieb ein. Die Zeiten werden sofort gespeichert, und die Chefin oder der Chef sieht, wer gerade arbeitet.</p>
     <p>Pausen werden mitgerechnet, Überstunden werden aus der vereinbarten Arbeitszeit ermittelt, und Urlaub, Krankenstand und Zeitausgleich werden als Fehlzeiten eingetragen. So ist jederzeit klar, wie der Stundenstand jeder Person aussieht.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Die Mitarbeitenden sehen ihre eigenen Stunden, ihren Urlaubsstand und ihre Überstunden am Handy. Das erspart Rückfragen im Büro und sorgt für Klarheit auf beiden Seiten.</p>
     <p>Der Einstieg dauert eine halbe Stunde: Betrieb und Mitarbeitende anlegen, Arbeitszeiten eintragen, und am nächsten Tag wird bereits digital erfasst. Die Software läuft im Browser und auf dem Handy, ohne Installation.</p>
     <p>Die Software ist für kleine Betriebe in Österreich gedacht: Gastronomie, Handel, Handwerk, Praxen und Büros mit wenigen Mitarbeitenden. Sie ist in Vorbereitung: Wir prüfen zuerst, ob Betriebe sie brauchen. Für die Aufzeichnungen und die Einhaltung des Arbeitsrechts bleibt der Arbeitgeber verantwortlich.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Häufige Fragen</h2>
-    <h3>Wie erfassen Mitarbeitende ihre Zeit?</h3>
-    <p>Mit einem Tipp für Beginn, Pause und Ende am eigenen Handy oder an einem Tablet im Betrieb.</p>
-    <h3>Werden Überstunden berechnet?</h3>
-    <p>Ja, aus der vereinbarten Arbeitszeit; Urlaub, Krankenstand und Zeitausgleich werden als Fehlzeiten eingetragen.</p>
-    <h3>Bekomme ich eine Stundenliste?</h3>
-    <p>Ja, je Person und Monat als PDF oder Excel.</p>
-    <h3>Muss ich etwas installieren?</h3>
-    <p>Nein, die Software läuft im Browser und auf dem Handy.</p>
-    <h3>Kann ich sie schon nutzen?</h3>
-    <p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Betriebe sie brauchen.</p>
+    <div class="stack"><h2>Häufige Fragen</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Wie erfassen Mitarbeitende ihre Zeit?</h3><p>Mit einem Tipp für Beginn, Pause und Ende am eigenen Handy oder an einem Tablet im Betrieb.</p></div>
+      <div class="split flip"><h3>Werden Überstunden berechnet?</h3><p>Ja, aus der vereinbarten Arbeitszeit; Urlaub, Krankenstand und Zeitausgleich werden als Fehlzeiten eingetragen.</p></div>
+      <div class="split flip"><h3>Bekomme ich eine Stundenliste?</h3><p>Ja, je Person und Monat als PDF oder Excel.</p></div>
+      <div class="split flip"><h3>Muss ich etwas installieren?</h3><p>Nein, die Software läuft im Browser und auf dem Handy.</p></div>
+      <div class="split flip"><h3>Kann ich sie schon nutzen?</h3><p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Betriebe sie brauchen.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Legen Sie Ihren Betrieb an</h2>
-    <p><label>Anzahl der Mitarbeitenden<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— bitte wählen —</option><option>1–3</option><option>4–9</option><option>10–20</option><option>Mehr als 20</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Starten</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Legen Sie Ihren Betrieb an</h2>
+    </div>
+    <div class="tile stack">
+      <label>Anzahl der Mitarbeitenden<select data-ev-focus="form_start"><option value="">— bitte wählen —</option><option>1–3</option><option>4–9</option><option>10–20</option><option>Mehr als 20</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Starten</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Stundenliste</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Datenschutz</a></p>
-  <p class="muted">Arbeitszeiterfassung für Ihren Betrieb. Für die Aufzeichnungen und die Einhaltung des Arbeitsrechts bleibt der Arbeitgeber verantwortlich.</p>
+  <p>Arbeitszeiterfassung für Ihren Betrieb. Für die Aufzeichnungen und die Einhaltung des Arbeitsrechts bleibt der Arbeitgeber verantwortlich.</p>
 </div></footer>
 
 </body>
